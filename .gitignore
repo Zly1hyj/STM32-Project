@@ -1,0 +1,21 @@
+# 忽略编译产生的垃圾目录
+Debug/
+Release/
+build/
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+
+# 忽略中间文件
+*.o
+*.d
+*.crf
+*.dep
+*.elf
+*.hex
+*.bin
+*.map
+*.htm
+
+# 忽略 Keil 个人配置 (保留 .uvprojx)
+*.uvoptx
+*.uvguix.*
